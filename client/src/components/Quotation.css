@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Thiết lập font và màu chữ chung */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Phần tiêu đề của trang */
+h2 {
+    color: #007bff;
+    /* Màu xanh lam */
+}
+
+/* Phần danh sách báo giá */
+ul {
+    list-style-type: none;
+    /* Ẩn dấu chấm trước mỗi mục trong danh sách */
+    padding: 0;
+}
+
+/* Mỗi mục trong danh sách */
+li {
+    margin-bottom: 10px;
+    /* Khoảng cách giữa các mục */
+}
+
+/* Phần nút */
+button {
+    background-color: #007bff;
+    /* Màu nền xanh lam */
+    color: #fff;
+    /* Màu chữ trắng */
+    border: none;
+    /* Không có viền */
+    padding: 10px 20px;
+    /* Kích thước nút */
+    cursor: pointer;
+    /* Con trỏ chuột thay đổi khi rê chuột qua nút */
+    margin-right: 10px;
+    /* Khoảng cách giữa các nút */
+}
+
+/* Hover effect cho nút */
+button:hover {
+    background-color: #0056b3;
+    /* Màu nền xanh lam nhạt hơn khi hover */
+}

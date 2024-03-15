@@ -1,0 +1,72 @@
+.register-form {
+    width: 90%;
+    /* Điều chỉnh chiều rộng để phản hồi */
+    max-width: 400px;
+    /* Giới hạn chiều rộng tối đa */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    /* Canh giữa trên và dưới */
+}
+
+.title-register {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(238, 40, 40);
+}
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn.register-btn:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    .register-form {
+        margin: 50px auto;
+        /* Canh giữa trên và dưới */
+    }
+}
